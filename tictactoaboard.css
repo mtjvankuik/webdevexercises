@@ -1,0 +1,19 @@
+body {
+	background-color: green;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-style: 2px solid black;
+	border-color: black;
+}
+
+td, th {
+	width: 100px;
+	height: 100px;
+}
+
+h1 {
+	text-align: center;
+}

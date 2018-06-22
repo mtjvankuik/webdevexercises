@@ -1,14 +1,38 @@
 body {
-	border: 
-	border-color: #BDC3C7;
-	font-family: source sans pro;
+	border: 20px solid #BDC3C7;
+	font-family: source sans pro, monospace;
+    max-width: 700px;
+    padding: 20px;
+    width: 50%;
+    margin: 2% auto;
 }
 
 h2 {
 	color: #2C3E50;
+    font-weight: 700;
+    font-size: 2.0rem;
 }
 
-/*
-date {
+div {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 20px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.first {
+    border-left: 5px solid #BDC3C7;
+    padding-left: 5px;
+}
+
+.date {
 	color: #3498DB;
-}*/
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
